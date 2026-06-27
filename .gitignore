@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Histdata — ignore all raw data except sample file
+histdata/*
+!histdata/DAT_ASCII_EURUSD_M1_2020.csv
+
+# Output files
+*.html
+*.png
+
+# Chronos model weights (too large for GitHub)
+Chronos/model/
+
+# TimesFM model weights (too large for GitHub)
+Timeseriesfm/model/
+
+# Kronos model weights and cloned repo (too large for GitHub)
+Kronos/model/
+Kronos/kronos_repo/
+
+# MLflow artifacts
+mlflow.db
+mlruns/
+
+# Generated feature data
+featdata/

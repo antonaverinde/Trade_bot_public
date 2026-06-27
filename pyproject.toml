@@ -1,0 +1,20 @@
+[project]
+name = "trade-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "darts>=0.43.0",
+    "pandas>=2.0",
+    "numpy>=1.26",
+    "xgboost>=2.0",
+    "scikit-learn>=1.4",
+    "chronos-forecasting>=1.4",
+    "plotly>=6.6.0",
+    "mlflow>=2.14",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "ipykernel>=6.0",
+    "jupyter>=1.0",
+]
